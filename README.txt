@@ -1,4 +1,4 @@
-                                 GhidraBundler
+                                 GhidraPackager
                     an easy way to package Ghidra for macOS
 
 1. About
