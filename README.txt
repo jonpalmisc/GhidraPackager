@@ -1,4 +1,4 @@
-                                 GhidraPackager
+                                   ghidrapkg 
                     an easy way to package Ghidra for macOS
 
 1. About
@@ -10,12 +10,17 @@
 
 2. Usage
 
-   Clone the repository then run build.sh to build the app bundle.
+   a) Download a pre-built release of Ghidra or compile it yourself.
 
-   WARNING: As of right now the URL of the latest Ghidra release is embedded in
-   the script. If a new version of Ghidra is available and this script has not
-   yet been updated, simply replacing the current URL with the new one should be
-   enough to make it work.
+   b) Clone the repository.
+
+   c) Place the zipped Ghidra build in the cloned repository's root directory.
+
+   d) ./ghidrapkg.sh <build.zip>
+
+   e) Move Ghidra.app to your Applications folder or wherever you want it.
+
+   f) Reverse engineer things!
 
 3. Credits
 
